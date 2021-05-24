@@ -47,25 +47,25 @@ var iboy, iboyImage, igirl, igirlImage, irobot, irobotImage;
 function preload(){
   //load your images here 
   
-  b54Image = loadImage("images/h.png");
-  cArrowImage = loadImage("images/cArrow.png");
-  rArrowImage = loadImage("images/rArrow.png");
-  player1boyImage = loadAnimation("images/Boy1.png");
-  player2boyImage = loadAnimation("images/Boy2.png");
-  player1girlImage = loadAnimation("images/Girl1.png");
-  player2girlImage = loadAnimation("images/Girl2.png");
-  player1robotImage = loadAnimation("images/Robot1.png");
-  player2robotImage = loadAnimation("images/Robot2.png");
-  bg = loadImage("images/Plus.jpg");
-  bgo = loadAnimation("Orange/O0.png","Orange/O1.png","Orange/O2.png","Orange/O3.png","Orange/O4.png","Orange/O5.png","Orange/O6.png","Orange/O7.png");
-  bgc = loadAnimation("Cyan/C0.png","Cyan/C1.png","Cyan/C2.png","Cyan/C3.png","Cyan/C4.png","Cyan/C5.png","Cyan/C6.png","Cyan/C7.png","Cyan/C8.png","Cyan/C9.png","Cyan/C10.png","Cyan/C11.png","Cyan/C12.png","Cyan/C13.png","Cyan/C14.png","Cyan/C15.png","Cyan/C16.png","Cyan/C17.png","Cyan/C18.png","Cyan/C19.png");
-  bgy= loadAnimation("Yellow/Y0.png","Yellow/Y1.png","Yellow/Y2.png","Yellow/Y3.png","Yellow/Y4.png","Yellow/Y5.png","Yellow/Y6.png","Yellow/Y7.png","Yellow/Y8.png","Yellow/Y9.png","Yellow/Y10.png","Yellow/Y11.png","Yellow/Y12.png","Yellow/Y13.png","Yellow/Y14.png","Yellow/Y15.png");
-  bgm = loadAnimation("Magenta/M0.png","Magenta/M1.png","Magenta/M2.png","Magenta/M3.png","Magenta/M4.png","Magenta/M5.png","Magenta/M6.png");
-  bgb = loadAnimation("Black/B0.png","Black/B1.png","Black/B2.png","Black/B3.png","Black/B4.png","Black/B5.png","Black/B6.png","Black/B7.png");
-  iboyImage = loadImage("images/Boy1.png");
-  igirlImage = loadImage("images/Girl1.png");
-  irobotImage = loadImage("images/Robot1.png");
-  //bg2 = loadImage("images/")
+  b54Image = loadImage("h.png");
+  cArrowImage = loadImage("cArrow.png");
+  rArrowImage = loadImage("rArrow.png");
+  player1boyImage = loadAnimation("Boy1.png");
+  player2boyImage = loadAnimation("Boy2.png");
+  player1girlImage = loadAnimation("Girl1.png");
+  player2girlImage = loadAnimation("Girl2.png");
+  player1robotImage = loadAnimation("Robot1.png");
+  player2robotImage = loadAnimation("Robot2.png");
+  bg = loadImage("Plus.jpg");
+  bgo = loadAnimation("O0.png","O1.png","O2.png","O3.png","O4.png","O5.png","O6.png","O7.png");
+  bgc = loadAnimation("C0.png","C1.png","C2.png","C3.png","C4.png","C5.png","C6.png","C7.png","C8.png","C9.png","C10.png","C11.png","C12.png","C13.png","C14.png","C15.png","C16.png","C17.png","C18.png","C19.png");
+  bgy= loadAnimation("Y0.png","Y1.png","Y2.png","Y3.png","Y4.png","Y5.png","Y6.png","Y7.png","Y8.png","Y9.png","Y10.png","Y11.png","Y12.png","Y13.png","Y14.png","Y15.png");
+  bgm = loadAnimation("M0.png","M1.png","M2.png","M3.png","M4.png","M5.png","M6.png");
+  bgb = loadAnimation("B0.png","B1.png","B2.png","B3.png","B4.png","B5.png","B6.png","B7.png");
+  iboyImage = loadImage("Boy1.png");
+  igirlImage = loadImage("Girl1.png");
+  irobotImage = loadImage("Robot1.png");
+  //bg2 = loadImage("")
   //thundersound=loadSound("thunder.mp3")
 }
 
@@ -373,15 +373,15 @@ function setup(){
 
   
 
-  boyb = createImg('images/Boy1.png');
+  boyb = createImg('Boy1.png');
   boyb.position(displayWidth/2 - 650,displayHeight/2-300);
   boyb.size(90, 150);
   boyb.style('font-size', '25px');
-  girlb = createImg('images/Girl1.png');
+  girlb = createImg('Girl1.png');
   girlb.position(displayWidth/2 - 400,displayHeight/2-300);
   girlb.size(90, 150);
   girlb.style('font-size', '25px');
-  robotb = createImg('images/Robot1.png');
+  robotb = createImg('Robot1.png');
   robotb.position(displayWidth/2 - 150,displayHeight/2-300);
   robotb.size(150, 130);
   robotb.style('font-size', '25px');
